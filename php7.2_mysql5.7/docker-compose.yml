@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ntest:
+    container_name: n-test
+    image: li9hu/new
+    ports:
+      - "8001:80"
+      - "3001:3306"
+    tty: true
+    restart: always
+    volumes:
+     - ./src:/var/www/html
+    environment:
+      - TZ=Alia/Shanghai

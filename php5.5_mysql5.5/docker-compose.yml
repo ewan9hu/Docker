@@ -1,0 +1,14 @@
+version: '3'
+services:
+  otest:
+    container_name: old-test
+    image: li9hu/old
+    ports:
+      - "5001:80"
+      - "2001:3306"
+    tty: true
+    restart: always
+    volumes:
+     - ./src:/var/www/html
+    environment:
+      - TZ=Alia/Shanghai
