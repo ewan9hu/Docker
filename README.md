@@ -9,5 +9,5 @@
 
 + mysql 密码为`li9hu` 
 
-如果需要debug 可参考我的笔记 (Docker+phpstrom+xdebug)[http://li9hu.top]
+如果需要debug 可参考我的笔记 [Docker+phpstrom+xdebug](http://li9hu.top)
 
